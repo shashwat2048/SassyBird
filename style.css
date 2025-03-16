@@ -5,11 +5,14 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: #000000;
+    background-image: url('flappybirdbg.png');
+    backdrop-filter: blur(10px);
     text-align: center;
 }
 
 #myCanvas{
     background-image: url('flappybirdbg.png');
     background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.468);
+    border-radius: 8px;
 }
